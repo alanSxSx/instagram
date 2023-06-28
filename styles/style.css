@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.conteudo{
+    display: flex;
+
+}
+
+.conteudol{
+    display: flex;
+    width: 50%;
+}
+
+
+
+.telefones{
+    position: relative;
+  
+}
+
+.telefonefrente{
+    position: relative;
+}
+
+.telefones img{
+    position: relative;
+    left: 257px;
+    top: 23px;
+}
+
+.telefonefrente img {
+    position: relative;
+    left: -50px;
+    top: 45px;
+}
+
+
+
+
+
+.alinhamento{
+     
+}
+
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+   
+
+    
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 1px solid grey;
+    margin-left: 30px;
+ 
+}
+
+.formulario button {
+    margin-top: 10px;
+    width: 70%;
+    
+}
+
+.ou {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formulario input {
+    margin-bottom: 5px;
+    width: 70%;
+    
+}
+
+.entrarfb{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.entrarfb a i {
+    
+    margin-right: 5px;
+    
+}
+
+
+.formulario img {
+    width: 80%;
+    height: 25%;
+}
+
+.botoes img:nth-child(1) {
+    width: 130px;
+    height: 40px;
+}
+
+.botoes img:nth-child(2) {
+    width: 110px;
+    height: 40px;
+}
+
+.cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.obtenhaoapp{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
