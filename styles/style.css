@@ -12,47 +12,39 @@ body {
 
 .conteudo {
 	display: flex;
+	width: 100%;
+	margin-top: 5vh;
+	margin-bottom: 10vh;
 
 }
 
 .conteudol {
 	display: flex;
+	width: 50%;
+	justify-content: end;
 
 }
 
-
-
-.telefones {
-	position: relative;
+.telefones{
+	position: absolute;
+	z-index: -1;
 
 }
 
-.telefonefrente {
-	position: relative;
+.telefonefrente{
+	position: absolute;
+	
 }
 
-.telefones img {
-	position: relative;
-	left: 257px;
-	top: 23px;
+#telefonefrente{
+
+	margin-right: 57px;
+	margin-top: 25px;
 }
-
-.telefonefrente img {
-	position: relative;
-	left: -50px;
-	top: 45px;
-}
-
-
-
 
 
 .alinhamento {
-		height: 920px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	
 }
 
 
@@ -69,8 +61,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 52%;
-	margin-left: 30px;
+	width: 350px;
+	
 }
 
 .formulario {
@@ -78,9 +70,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 52%;
+	width: 350px;
 	border: 1px solid #CCCCCC;
-	margin-left: 30px;
+	
 
 }
 
@@ -183,9 +175,9 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 52%;
+	width: 350px;
 	margin-bottom: 20px;
-	margin-left: 30px;
+	
 	margin-top: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -207,9 +199,9 @@ body {
 .obtenhaoapp {
 	display: flex;
 	justify-content: center;
-	width: 52%;
+	width: 350px;
 	margin-bottom: 20px;
-	margin-left: 30px;
+	
 	font-size: 14px;
 }
 
@@ -218,13 +210,26 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 
+}
+
+.footer1{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer2{
+	margin: 0 auto;
+	margin-bottom: 7vh;
 }
 
 .footer1 ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 
 }
 
@@ -245,6 +250,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
 }
 
 
@@ -260,4 +266,35 @@ body {
 	color: rgb(115, 115, 115);
 	font-weight: 400;
 	font-size: 12px;
+}
+
+
+@media screen and (max-width: 875px) {
+
+.conteudol {
+	display: none;
+}
+
+.conteudo2{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+	.formulario {
+		border: none;
+	}
+
+	.cadastrar {
+		border: none;
+	}
+
+
+
 }
